@@ -1,0 +1,16 @@
+filebeat.inputs:
+
+- type: log
+
+  paths:
+
+    - /logs/*/*.log
+
+setup.kibana:
+
+  host: "172.31.4.242:5601"
+
+output.logstash:
+
+  hosts: ["172.31.4.242:5044"]
+
