@@ -7,6 +7,6 @@ sh hello-world.sh
 
 2. run with docker locally, with entire project as a docker container(all in one)
 ``` shell script
-# hello-world-singleton.sh can be found in same repository
+# hello-world-aio.sh can be found in same repository
 sh hello-world-aio.sh
 ```
