@@ -1,0 +1,32 @@
+{
+  "uploadFile" : {
+    "transaction" : "uploadFile",
+    "sampleCount" : 216,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 1389.6342592592591,
+    "minResTime" : 1063.0,
+    "maxResTime" : 1865.0,
+    "pct1ResTime" : 1598.7,
+    "pct2ResTime" : 1645.15,
+    "pct3ResTime" : 1839.8199999999993,
+    "throughput" : 3.565121230627032,
+    "receivedKBytesPerSec" : 0.3586010612837737,
+    "sentKBytesPerSec" : 3447.8986248597057
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 216,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 1389.6342592592591,
+    "minResTime" : 1063.0,
+    "maxResTime" : 1865.0,
+    "pct1ResTime" : 1598.7,
+    "pct2ResTime" : 1645.15,
+    "pct3ResTime" : 1839.8199999999993,
+    "throughput" : 3.565121230627032,
+    "receivedKBytesPerSec" : 0.3586010612837737,
+    "sentKBytesPerSec" : 3447.8986248597057
+  }
+}

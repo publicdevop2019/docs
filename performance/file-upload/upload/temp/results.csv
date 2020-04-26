@@ -1,0 +1,7 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1582430493027,804,uploadFile,200,,Scenario 1 1-1,,true,,103,939910,1,1,http://ec2-3-136-106-13.us-east-2.compute.amazonaws.com:8086/v1/api/files,804,0,120
+1582430493845,929,uploadFile,200,,Scenario 1 1-1,,true,,103,980510,1,1,http://ec2-3-136-106-13.us-east-2.compute.amazonaws.com:8086/v1/api/files,929,0,34
+1582430494776,739,uploadFile,200,,Scenario 1 1-1,,true,,103,1020181,1,1,http://ec2-3-136-106-13.us-east-2.compute.amazonaws.com:8086/v1/api/files,739,0,38
+1582430495518,777,uploadFile,200,,Scenario 1 1-1,,true,,103,1020744,1,1,http://ec2-3-136-106-13.us-east-2.compute.amazonaws.com:8086/v1/api/files,777,0,41
+1582430496296,790,uploadFile,200,,Scenario 1 1-1,,true,,103,939898,1,1,http://ec2-3-136-106-13.us-east-2.compute.amazonaws.com:8086/v1/api/files,790,0,37
+1582430497088,778,uploadFile,200,,Scenario 1 1-1,,true,,103,980501,1,1,http://ec2-3-136-106-13.us-east-2.compute.amazonaws.com:8086/v1/api/files,778,0,38
