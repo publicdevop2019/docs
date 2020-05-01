@@ -10,3 +10,5 @@ sh hello-world.sh
 # hello-world-aio.sh can be found in same repository
 sh hello-world-aio.sh
 ```
+- open http://localhost:4200/zh-Hans/index.html
+- open http://localhost:4200/index.html

@@ -1,11 +1,11 @@
 FROM publicdevop2019/eureka:latest AS eureka
-FROM publicdevop2019/oauth2service AS oauth2
-FROM publicdevop2019/edgeproxy:latest AS proxy
-FROM publicdevop2019/messenger:latest AS messenger
-FROM publicdevop2019/file-upload:latest AS fileUpload
-FROM publicdevop2019/payment:latest AS payment
-FROM publicdevop2019/userprofile:latest AS userprofile
-FROM publicdevop2019/product:latest AS product
+FROM publicdevop2019/oauth2service:hw AS oauth2
+FROM publicdevop2019/edgeproxy:hw AS proxy
+FROM publicdevop2019/messenger:hw AS messenger
+FROM publicdevop2019/file-upload:hw AS fileUpload
+FROM publicdevop2019/payment:hw AS payment
+FROM publicdevop2019/userprofile:hw AS userprofile
+FROM publicdevop2019/product:hw AS product
 FROM hirokimatsumoto/alpine-openjdk-11:latest as jlink-package
 
 RUN jlink \
