@@ -1,5 +1,4 @@
-# 中文文档链接
-- [中文](README.zh-Hans.MD)
+# [中文](README.zh-Hans.MD)
 # Please install docker if you wish to continue below guide, docker is easy and powerful, try & love it
 # Hello World
 ### Option 1. Run with docker locally, with entire project as a docker image (all in one)
