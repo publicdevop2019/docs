@@ -32,7 +32,7 @@
 |  [mt10-form-builder](https://github.com/publicdevop2019/mt10-form-builder )  | 提供基于Angular的JSON驱动的表单生成，主要用在管理后端的UI(Angular)  |
 | [config-center]( https://github.com/publicdevop2019/config-center )  | 共享代码以及配置文件 |
 |  [docs](https://github.com/publicdevop2019/docs  )  | 存放项目文档以及一些性能测试的结果 |
-# 一键部署多树商城（需要本地安装Docker）
+# 快速开始（需要本地安装Docker）
 ### 方式一. 所有子模块在一个Docker镜像中
 ``` shell script
 # 以下脚本在同一目录下,（用户名:haolinwei2015@gmail.com,密码:root，注册激活码:123456,重置密码令牌:123456789)
@@ -48,8 +48,4 @@ sh hello-world.sh
 - (简体中文) http://localhost:4200/zh-Hans/index.html
 - (英文) http://localhost:4200/index.html
 #### 管理后端
-- (暂时只有英文) http://localhost:4300/index.html
-# mt2-profile + mt3-product
-- 在API并发测试上（测试代码在mt8中）和幂等性下了些功夫
-- 用户随机并发下单，库存保证最终一致性
-- 部分采用了领域设计的思路来构建项目
+- (英/中) http://localhost:4300/index.html
