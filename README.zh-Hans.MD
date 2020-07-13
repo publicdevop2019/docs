@@ -15,7 +15,7 @@
 |  项目名称  |  概述  |
 |:---|:---|
 |  [mt2-user-profile](https://github.com/publicdevop2019/mt2-user-profile)  |  地址，购物篮，订单，档案管理(Spring boot)  |
-|  [mt3-product](https://github.com/publicdevop2019/mt3-product )  | 产品，分类管理(Spring boot)  |
+|  [mt3-product](https://github.com/publicdevop2019/mt3-product )  | 产品，属性，类目管理(Spring boot)  |
 |  [mt7-obj-market](https://github.com/publicdevop2019/mt7-obj-market )  | 商城前端(Angular)  |
 # 多树论坛
 |  项目名称  |  概述  |
