@@ -3,7 +3,7 @@
 - 多树是基于热爱与分享所创立的项目
 - 希望通过持之以恒的迭代开发来达到自我成长以及对开源社区的微薄贡献
 # [查看项目路线](https://github.com/publicdevop2019?tab=projects)
-# 演示链接
+# 演示链接(纯UI离线版)
 - [多树商城中文](https://mt7-obj-market.firebaseapp.com/zh-Hans/index.html)
 - [多树商城英文](https://mt7-obj-market.firebaseapp.com/index.html)
 - [多树管理后台](https://mt9-oauth2-ui.firebaseapp.com/index.html)
