@@ -67,9 +67,9 @@ DELETE url: /product-svc/admin/products/001
 ###  sample6
 ```
 PATCH url: /product-svc/admin/products/001
-{
-  ["op":"replace","path":"/name","value":"zoo"]
-}
+[
+  {"op":"replace","path":"/name","value":"zoo"}
+]
 ```
 ###  sample7
 ```
@@ -118,43 +118,51 @@ DELETE url: /product-svc/admin/products?query=price<:500
 ###  sample9
 ```
 PATCH url: /product-svc/admin/products
-{
-  ["op":"replace","path":"/001/name","value":"zoo"],
-  ["op":"replace","path":"/002/name","value":"bar"],
-  ["op":"replace","path":"/001/price","value":"99.99"],
-}
+[
+  {"op":"replace","path":"/001/name","value":"zoo"},
+  {"op":"replace","path":"/002/name","value":"bar"},
+  {"op":"replace","path":"/001/price","value":"99.99"},
+]
 ```
 #### add/sub a number field
 ```
 PATCH url: /product-svc/admin/products
-{
-  ["op":"add","path":"/001/storageOrder","value":"1"],
-  ["op":"sub","path":"/002/storageActual","value":"2"]
-}
+[
+  {"op":"add","path":"/001/storageOrder","value":"1"},
+  {"op":"sub","path":"/002/storageActual","value":"2"}
+]
+```
+#### test object(s) value
+```
+PATCH url: /product-svc/admin/products
+[
+  {"op":"test","path":"/001","value":"{"name":"foo","skus":[{"attributeSales":"8001-foo,8002-bar","price":"100.00"}]}"},
+  {"op":"sub","path":"/002","value":"{"price":"105.87","options":[{"title":"zoo","selections":[{"length":"bar"}]}]}"}
+]
 ```
 #### update nested field
 ```
 PATCH url: /product-svc/admin/products
-{
-  ["op":"add","path":"/001/skus/0/storageOrder","value":"1"],
+[
+  {"op":"add","path":"/001/skus/0/storageOrder","value":"1"},
   //update first element of skus
-  ["op":"add","path":"/001/skus/?query=attributeSales:8001-foo,8002-bar/storageOrder","value":"1"] 
+  {"op":"add","path":"/001/skus/?query=attributeSales:8001-foo,8002-bar/storageOrder","value":"1"} 
   // update skus that match query
-}
+]
 ```
 #### update nested field without transaction management
 ```
 PATCH url: /product-svc/admin/products?config=tx:0
-{
-  ["op":"add","path":"/001/skus/0/storageOrder","value":"1"]
-}
+[
+  {"op":"add","path":"/001/skus/0/storageOrder","value":"1"}
+]
 ```
 #### update nested field wit change history enabled
 ```
 PATCH url: /product-svc/admin/products?config=his:1
-{
-  ["op":"add","path":"/001/skus/0/storageOrder","value":"1"]
-}
+[
+  {"op":"add","path":"/001/skus/0/storageOrder","value":"1"}
+]
 ```
 # PUT vs PATCH
 - PUT replace entire resource or majority parts of a resource
