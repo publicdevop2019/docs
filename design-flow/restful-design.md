@@ -157,7 +157,7 @@ PATCH url: /product-svc/admin/products?config=tx:0
   {"op":"add","path":"/001/skus/0/storageOrder","value":"1"}
 ]
 ```
-#### update nested field wit change history enabled
+#### update nested field with change history enabled
 ```
 PATCH url: /product-svc/admin/products?config=his:1
 [
@@ -183,3 +183,8 @@ PATCH url: /product-svc/admin/products?config=his:1
 - GET, DELETE should be designed naturally idempotent
 - POST, PUT and PATCH may or may not be idempotent depends on implementation
 - User can make an api idempotent by adding ?config=tx:1 and txId in request header
+# Method naming convention
+- {operation}For{role}{optional field}
+- {read|replace|patch|delete}For{Admin|Customer}By{Id|Query}
+- e.g readForCustomerByQuery, patchForAdminById
+
