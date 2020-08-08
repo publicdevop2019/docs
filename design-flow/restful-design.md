@@ -128,8 +128,8 @@ PATCH url: /product-svc/admin/products
 ```
 PATCH url: /product-svc/admin/products
 [
-  {"op":"add","path":"/001/storageOrder","value":"1"},
-  {"op":"sub","path":"/002/storageActual","value":"2"}
+  {"op":"sum","path":"/001/storageOrder","value":"1"},
+  {"op":"diff","path":"/002/storageActual","value":"2"}
 ]
 ```
 #### test object(s) value
@@ -137,16 +137,16 @@ PATCH url: /product-svc/admin/products
 PATCH url: /product-svc/admin/products
 [
   {"op":"test","path":"/001","value":"{"name":"foo","skus":[{"attributeSales":"8001-foo,8002-bar","price":"100.00"}]}"},
-  {"op":"sub","path":"/002","value":"{"price":"105.87","options":[{"title":"zoo","selections":[{"length":"bar"}]}]}"}
+  {"op":"diff","path":"/002","value":"{"price":"105.87","options":[{"title":"zoo","selections":[{"length":"bar"}]}]}"}
 ]
 ```
 #### update nested field
 ```
 PATCH url: /product-svc/admin/products
 [
-  {"op":"add","path":"/001/skus/0/storageOrder","value":"1"},
+  {"op":"sum","path":"/001/skus/0/storageOrder","value":"1"},
   //update first element of skus
-  {"op":"add","path":"/001/skus/?query=attributeSales:8001-foo,8002-bar/storageOrder","value":"1"} 
+  {"op":"sum","path":"/001/skus/?query=attributeSales:8001-foo,8002-bar/storageOrder","value":"1"} 
   // update skus that match query
 ]
 ```
@@ -154,14 +154,14 @@ PATCH url: /product-svc/admin/products
 ```
 PATCH url: /product-svc/admin/products?config=tx:0
 [
-  {"op":"add","path":"/001/skus/0/storageOrder","value":"1"}
+  {"op":"sum","path":"/001/skus/0/storageOrder","value":"1"}
 ]
 ```
 #### update nested field with change history enabled
 ```
 PATCH url: /product-svc/admin/products?config=his:1
 [
-  {"op":"add","path":"/001/skus/0/storageOrder","value":"1"}
+  {"op":"sum","path":"/001/skus/0/storageOrder","value":"1"}
 ]
 ```
 #### update number field with same op, same value multiple times, only one will be taken
@@ -169,13 +169,13 @@ PATCH url: /product-svc/admin/products?config=his:1
 PATCH url: /product-svc/admin/products?config=his:1
 [
   {
-    "op": "add",
+    "op": "sum",
     "path": "/837195323695104/storageActual",
     "value": "1"
   },
   //below is ignored
   {
-    "op": "add",
+    "op": "sum",
     "path": "/837195323695104/storageActual",
     "value": "1"
   }
@@ -186,17 +186,17 @@ PATCH url: /product-svc/admin/products?config=his:1
 PATCH url: /product-svc/admin/products
 [
   {
-    "op": "sub",
+    "op": "diff",
     "path": "/835605166055424/skus?query=attributesSales:835604663263232-185~/100A~/XXL,835604723556352-淡粉色/storageActual",
     "value": "1"
   },
   {
-    "op": "add",
+    "op": "sum",
     "path": "/835605166055424/skus?query=attributesSales:835604663263232-185~/100A~/XXL,835604723556352-淡粉色/sales",
     "value": "1"
   },
   {
-    "op": "add",
+    "op": "sum",
     "path": "/835605166055424/totalSales",
     "value": "1"
   }
@@ -212,13 +212,17 @@ PATCH url: /product-svc/admin/products
 - By default transactional is turned on for all write operations
 # Track change for patch
 - By default change is not tracked
-- If change history is enabled then txId is required in request header
-- TransactionId is a unique value across applications
+- If change history is enabled then changeId is required in request header
+- ChangeId is a unique value across applications
+- API with tracked change enabled are automatically idempotent
 # Idempotent
 - By default apis are not idempotent
 - GET, DELETE should be designed naturally idempotent
 - POST, PUT and PATCH may or may not be idempotent depends on implementation
-- User can make an api idempotent by adding ?config=tx:1 and txId in request header
+- User can make an api idempotent by adding changeId in request header
+# Rollback a change
+- If an api has change track enabled, then it may support rollback operation
+- DELETE call with changeId will rollback operation recorded
 # Method naming convention
 - {operation}For{role}{optional field}
 - {read|replace|patch|delete}For{Admin|Customer}By{Id|Query}
@@ -237,7 +241,7 @@ PATCH url: /product-svc/admin/products
 ```
 [
   {
-    "op": "add",
+    "op": "sum",
     "path": "/837195323695104/skus?query=attributeSales:835604723556352-淡粉色,835604663263232-185~/100A~/XXL/storageActual",
     "value": "1"
   }
