@@ -164,6 +164,45 @@ PATCH url: /product-svc/admin/products?config=his:1
   {"op":"add","path":"/001/skus/0/storageOrder","value":"1"}
 ]
 ```
+#### update number field with same op, same value multiple times, only one will be taken
+```
+PATCH url: /product-svc/admin/products?config=his:1
+[
+  {
+    "op": "add",
+    "path": "/837195323695104/storageActual",
+    "value": "1"
+  },
+  //below is ignored
+  {
+    "op": "add",
+    "path": "/837195323695104/storageActual",
+    "value": "1"
+  }
+]
+```
+#### decrease storage actual and increase sales
+```
+PATCH url: /product-svc/admin/products
+[
+  {
+    "op": "sub",
+    "path": "/835605166055424/skus?query=attributesSales:835604663263232-185~/100A~/XXL,835604723556352-淡粉色/storageActual",
+    "value": "1"
+  },
+  {
+    "op": "add",
+    "path": "/835605166055424/skus?query=attributesSales:835604663263232-185~/100A~/XXL,835604723556352-淡粉色/sales",
+    "value": "1"
+  },
+  {
+    "op": "add",
+    "path": "/835605166055424/totalSales",
+    "value": "1"
+  }
+]
+```
+
 # PUT vs PATCH
 - PUT replace entire resource or majority parts of a resource
 - PATCH replace limited fields of a resource
@@ -188,3 +227,22 @@ PATCH url: /product-svc/admin/products?config=his:1
 - {read|replace|patch|delete}For{Admin|Customer}By{Id|Query}
 - e.g readForCustomerByQuery, patchForAdminById
 
+# Skip count flag
+# /{object-id} vs query=id:{object-id}
+# Expect
+- ?expect=rows:1
+- use expect to do some simple validation
+- e.g update product p where p.id=foo, expected num of updated rows should be 1
+# Escape special char in path with ~
+```
+[
+  {
+    "op": "add",
+    "path": "/837195323695104/skus?query=attributeSales:835604723556352-淡粉色,835604663263232-185~/100A~/XXL/storageActual",
+    "value": "1"
+  }
+]
+```
+# Entity representation
+- admin view and entity naming
+- customer view vs admin view
