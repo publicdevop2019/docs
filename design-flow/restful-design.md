@@ -210,13 +210,10 @@ PATCH url: /product-svc/admin/products
 - PATCH directly write, read is optional
 # Transactional 
 - By default transactional is turned on for all write operations
-- User can explicitly disable transaction by adding ?config=tx:0
-# Change history for patch
+# Track change for patch
 - By default change is not tracked
-- User can explicitly enable change history by adding ?config=his:1
-- if change history is enabled then transactional is enabled as well
-- if change history is enabled then txId is required in request header
-- transactionId is a unique value across applications
+- If change history is enabled then txId is required in request header
+- TransactionId is a unique value across applications
 # Idempotent
 - By default apis are not idempotent
 - GET, DELETE should be designed naturally idempotent
@@ -228,6 +225,7 @@ PATCH url: /product-svc/admin/products
 - e.g readForCustomerByQuery, patchForAdminById
 
 # Skip count flag
+- User can explicitly skip count query by adding ?config=sc:1 in GET url
 # /{object-id} vs query=id:{object-id}
 - /{object-id} will return 400 if object-id is not found
 - query=id:{object-id} will return 200 with data as empty if object-id is not found
