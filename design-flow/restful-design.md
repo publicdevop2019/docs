@@ -229,6 +229,8 @@ PATCH url: /product-svc/admin/products
 
 # Skip count flag
 # /{object-id} vs query=id:{object-id}
+- /{object-id} will return 400 if object-id is not found
+- query=id:{object-id} will return 200 with data as empty if object-id is not found
 # Expect
 - ?expect=rows:1
 - use expect to do some simple validation
