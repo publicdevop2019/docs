@@ -134,41 +134,22 @@ PATCH url: /product-svc/admin/products
 ```
 #### test object(s) value
 ```
-PATCH url: /product-svc/admin/products
+PATCH url: /product-svc/admin/products/837250735693824
 [
   {
     "op": "test",
-    "path": "/837250735693824",
-    "value": {
-      "selectedOptions": [
-        {
-          "title": "镀金",
-          "options": [
-            {
-              "optionValue": "12k",
-              "priceVar": "+59"
-            }
-          ]
-        },
-        {
-          "title": "刻字",
-          "options": [
-            {
-              "optionValue": "材料－金",
-              "priceVar": "+89"
-            }
-          ]
-        }
-      ],
-      "skus": [
-        {
-          "attributesSales": [
-            "835606767755264:XXL"
-          ],
-          "price": 999
-        }
-      ]
-    }
+    "path": "/productSkuList/0/attributesSales/0",
+    "value": "835606767755264:XXL"
+  },
+  {
+    "op": "test",
+    "path": "/productSkuList/0/price",
+    "value": 999
+  },
+  {
+    "op": "test",
+    "path": "/selectedOptions/0/title",
+    "value": "镀金"
   }
 ]
 ```
