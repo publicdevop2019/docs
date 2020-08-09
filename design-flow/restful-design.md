@@ -136,8 +136,40 @@ PATCH url: /product-svc/admin/products
 ```
 PATCH url: /product-svc/admin/products
 [
-  {"op":"test","path":"/001","value":"{"name":"foo","skus":[{"attributeSales":"8001-foo,8002-bar","price":"100.00"}]}"},
-  {"op":"diff","path":"/002","value":"{"price":"105.87","options":[{"title":"zoo","selections":[{"length":"bar"}]}]}"}
+  {
+    "op": "test",
+    "path": "/837250735693824",
+    "value": {
+      "selectedOptions": [
+        {
+          "title": "镀金",
+          "options": [
+            {
+              "optionValue": "12k",
+              "priceVar": "+59"
+            }
+          ]
+        },
+        {
+          "title": "刻字",
+          "options": [
+            {
+              "optionValue": "材料－金",
+              "priceVar": "+89"
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "attributesSales": [
+            "835606767755264:XXL"
+          ],
+          "price": 999
+        }
+      ]
+    }
+  }
 ]
 ```
 #### update nested field
@@ -217,9 +249,9 @@ PATCH url: /product-svc/admin/products
 - API with tracked change enabled are automatically idempotent
 # Idempotent
 - By default apis are not idempotent
-- GET, DELETE should be designed naturally idempotent
-- POST, PUT and PATCH may or may not be idempotent depends on implementation
 - User can make an api idempotent by adding changeId in request header
+- GET, DELETE should be designed naturally idempotent, no changeId required
+- POST, PUT and PATCH may or may not be idempotent depends on implementation
 # Rollback a change
 - If an api has change track enabled, then it may support rollback operation
 - DELETE call with changeId will rollback operation recorded
@@ -236,6 +268,7 @@ PATCH url: /product-svc/admin/products
 # Expect
 - ?expect=rows:1
 - use expect to do some simple validation
+- certain operation has pre-configured expect num, which can be overwritten
 - e.g update product p where p.id=foo, expected num of updated rows should be 1
 # Escape special char in path with ~
 ```
