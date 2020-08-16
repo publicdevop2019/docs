@@ -1,4 +1,3 @@
-# Restful Design in MT
 # Combine DDD with restful api design
 - In SQL world, root is accessed through SQL query
 - SELECT what can be read
@@ -228,7 +227,7 @@ PATCH url: /product-svc/admin/products
 ## /{object-id} vs query=id:{object-id}
 - /{object-id} will return 400 if object-id is not found
 - query=id:{object-id} will return 200 with data as empty if object-id is not found
-# Escape special char in path with ~
+## Escape special char in path with ~
 ```
 [
   {
