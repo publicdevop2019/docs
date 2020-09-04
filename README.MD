@@ -1,7 +1,9 @@
 # [英文](README.en-US.MD)
 # 关于多树
-- 多树是基于热爱与分享所创立的项目
+- 多树是基于热爱，分享与学习所创立的项目
 - 希望通过持之以恒的迭代开发来达到自我成长以及对开源社区的微薄贡献
+- 多树将会以双周为一个Sprint来进行版本发布
+- 欢迎参与贡献
 # [查看项目路线](https://github.com/publicdevop2019?tab=projects)
 # 演示链接(纯UI离线版)
 - [多树商城中文](https://mt7-obj-market.firebaseapp.com/zh-Hans/index.html)
@@ -31,7 +33,7 @@
 |  [mt4-messenger](https://github.com/publicdevop2019/mt4-messenger)  |  提供基本的对外通信手段(Spring boot)  |
 |  [mt5-file-upload](https://github.com/publicdevop2019/mt5-file-upload)  |  提供多媒体文件的存储(Spring boot)  |
 |  [mt6-payment](https://github.com/publicdevop2019/mt6-payment )  | 一个测试用的支付微服务，并不会实际发生支付行为(Spring boot)  |
-|  [mt8-sys-test](https://github.com/publicdevop2019/mt8-sys-test )  |  提供API的回归测试，通过定时调用来提升代码稳定性(Spring boot test) |
+|  [mt8-sys-test](https://github.com/publicdevop2019/mt8-sys-test )  |  提供API的回归测试(Spring boot test) |
 |  [mt10-form-builder](https://github.com/publicdevop2019/mt10-form-builder )  | 提供基于Angular的JSON驱动的表单生成，主要用在管理后端的UI(Angular)  |
 |  [mt14-web-component](https://github.com/publicdevop2019/mt14-web-component )  | 提供基于Angular/React的Web Component,提供跨框架的组件共享功能  |
 | [config-center]( https://github.com/publicdevop2019/config-center )  | 共享代码以及配置文件 |
