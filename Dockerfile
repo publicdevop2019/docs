@@ -6,6 +6,7 @@ FROM publicdevop2019/file-upload:hw AS fileUpload
 FROM publicdevop2019/payment:hw AS payment
 FROM publicdevop2019/userprofile:hw AS userprofile
 FROM publicdevop2019/product:hw AS product
+FROM publicdevop2019/saga-orchestrator:hw AS saga
 FROM hirokimatsumoto/alpine-openjdk-11:latest as jlink-package
 
 RUN jlink \
@@ -32,6 +33,7 @@ COPY --from=fileUpload ./files ./files
 COPY --from=payment ./Payment.jar ./
 COPY --from=userprofile ./UserProfile.jar ./
 COPY --from=product ./Product.jar ./
+COPY --from=saga ./SagaOrchestrator.jar ./
 
 COPY ./start-up.sh /
 RUN chmod 777 ./start-up.sh

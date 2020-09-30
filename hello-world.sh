@@ -15,6 +15,7 @@ docker run -td --rm --name proxy --network="host" publicdevop2019/edgeproxy:hw -
 docker run -td --rm --name messenger --network="host" publicdevop2019/messenger:hw -jar Messenger.jar $EMAIL_USERNAME $EMAIL_PWD $REGISTRY
 docker run -td --rm --name file-upload --network="host" publicdevop2019/file-upload:hw -jar FileUpload.jar $REGISTRY
 docker run -td --rm --name payment --network="host" publicdevop2019/payment:hw -jar Payment.jar $REGISTRY
+docker run -td --rm --name saga-orchestrator --network="host" publicdevop2019/saga-orchestrator:hw -jar SagaOrchestrator.jar $REGISTRY
 
 docker run -td --rm --name profile --network="host" publicdevop2019/userprofile:hw -jar UserProfile.jar $REGISTRY
 docker run -td --rm --name product --network="host" publicdevop2019/product:hw -jar Product.jar $REGISTRY
