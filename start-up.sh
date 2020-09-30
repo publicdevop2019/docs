@@ -10,5 +10,5 @@ java -jar ./Messenger.jar $EMAIL_USERNAME $EMAIL_PWD $REGISTRY &
 java -jar ./FileUpload.jar $REGISTRY &
 java -jar ./Payment.jar $REGISTRY &
 java -jar ./UserProfile.jar $REGISTRY &
-java -jar ./Product.jar $REGISTRY
+java -jar ./Product.jar $REGISTRY &
 java -jar ./SagaOrchestrator.jar $REGISTRY
