@@ -6,8 +6,8 @@
 - 欢迎参与贡献
 # [查看项目路线](https://github.com/publicdevop2019?tab=projects)
 # 演示链接(纯UI离线版)
-- [多树商城中文(国内)](http://www.duoshu.org/index.html)
-- [多树管理后台(国内)](http://www.duoshu.org/mall/index.html)
+- [多树商城中文(国内)](http://www.duoshu.org/mall/index.html)
+- [多树管理后台(国内)](http://www.duoshu.org/index.html)
 - [多树商城中文](https://mt7-obj-market.firebaseapp.com/zh-Hans/index.html)
 - [多树商城英文](https://mt7-obj-market.firebaseapp.com/index.html)
 - [多树管理后台](https://mt9-oauth2-ui.firebaseapp.com/index.html)
