@@ -3,7 +3,7 @@ OAUTH=--service.url.oauth2=http://localhost:8080
 EMAIL_USERNAME=--spring.mail.username={replace_w_gmail_account}
 EMAIL_PWD=--spring.mail.password={replace_w_gmail_pwd}
 # rabbitmq
-docker run -it --rm --name rabbitmq --network="host" -p 5672:5672 -p 15672:15672 rabbitmq:3-management
+docker run -td --rm --name rabbitmq --network="host" -p 5672:5672 -p 15672:15672 rabbitmq:3-management
 # start of ui #
 docker run -td --rm -p 4300:80 --name oauth2-ui publicdevop2019/oauth-ui:hw
 docker run -td --rm -p 4200:80 --name object-market publicdevop2019/object-market:hw
