@@ -26,6 +26,7 @@
 - when aggregate updated/delete, all query results should be cleared, id query that contains updated id will be cleared
 - clear linked aggregates e.g. product create should update sku cache as well
 # Cache key
+- \[ should be avoid in key, as it will be treated as
 - e.g. \[aggregate]\[query]\[hashcode of role, query, page, config]
 - e.g. \[aggregate]\[id]\[hashcode of role, query, page, config]\[min-id]\[max-id]
 # Issues
