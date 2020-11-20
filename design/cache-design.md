@@ -22,7 +22,7 @@
 # Challenge
 - create separate cache key for query with ids (query=id:1000 or query=id:1000,1001 or query=id\:1000.1001.1002,price\:>=10)
 - query=id:1000,1001 and query=id:1001,1000 should result in same cache
-- when new aggregate created, any none id query results cache should be cleared, id query that contains created id will be cleared (by checking range)
+- when new aggregate created, any query results cache should be cleared, id query that contains created id will be cleared (by checking range)
 - when aggregate updated/delete, all query results should be cleared, id query that contains updated id will be cleared
 - clear linked aggregates e.g. product create should update sku cache as well
 # Cache key
