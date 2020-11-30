@@ -6,7 +6,6 @@ DATA_SOURCE_DDL=--spring.jpa.hibernate.ddl-auto=create
 DATA_SOURCE_USERNAME=--spring.datasource.username=root
 EMAIL_USERNAME=--spring.mail.username={replace_w_gmail_account}
 EMAIL_PWD=--spring.mail.password={replace_w_gmail_pwd}
-DEBUG_ENABLE=logging.level.com.hw=DEBUG
 # mongodb
 docker run -td --rm --name mongodb --network="host" -v "/$(pwd)/configs:/etc/mongo" -v ~/db/mongo:/data/db mongo:4.4.2-bionic --config /etc/mongo/mongod.conf
 sleep 3
@@ -27,16 +26,16 @@ docker run -td --rm -p 4200:80 --name object-market publicdevop2019/object-marke
 # start of micro-services #
 docker run -td --rm --name eureka --network="host" publicdevop2019/eureka:latest -jar Eureka.jar
 docker run -td --rm --name validator --network="host" publicdevop2019/validator:latest
-docker run -td --rm --name oauth2 --network="host" publicdevop2019/oauth2service:latest -jar AuthService.jar $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME $DEBUG_ENABLE
+docker run -td --rm --name oauth2 --network="host" publicdevop2019/oauth2service:latest -jar AuthService.jar $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
 sleep 20
 docker run -td --rm --name proxy --network="host" publicdevop2019/edgeproxy:latest -jar EdgeProxyService.jar $OAUTH $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
 docker run -td --rm --name objectstore --network="host" publicdevop2019/object-store:latest -jar ObjectStore.jar $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL
 
-docker run -td --rm --name messenger --network="host" publicdevop2019/messenger:hw -jar Messenger.jar $EMAIL_USERNAME $EMAIL_PWD $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
-docker run -td --rm --name file-upload --network="host" publicdevop2019/file-upload:hw -jar FileUpload.jar $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
-docker run -td --rm --name payment --network="host" publicdevop2019/payment:hw -jar Payment.jar $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
-docker run -td --rm --name saga-orchestrator --network="host" publicdevop2019/saga-orchestrator:hw -jar SagaOrchestrator.jar $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
+docker run -td --rm --name messenger --network="host" publicdevop2019/messenger:latest -jar Messenger.jar $EMAIL_USERNAME $EMAIL_PWD $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
+docker run -td --rm --name file-upload --network="host" publicdevop2019/file-upload:latest -jar FileUpload.jar $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
+docker run -td --rm --name payment --network="host" publicdevop2019/payment:latest -jar Payment.jar $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
+docker run -td --rm --name saga-orchestrator --network="host" publicdevop2019/saga-orchestrator:latest -jar SagaOrchestrator.jar $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
 
-docker run -td --rm --name profile --network="host" publicdevop2019/userprofile:hw -jar UserProfile.jar $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
-docker run -td --rm --name product --network="host" publicdevop2019/product:hw -jar Product.jar $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
+docker run -td --rm --name profile --network="host" publicdevop2019/userprofile:latest -jar UserProfile.jar $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
+docker run -td --rm --name product --network="host" publicdevop2019/product:latest -jar Product.jar $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
 # end of micro-services #

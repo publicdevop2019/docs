@@ -1,12 +1,14 @@
 FROM publicdevop2019/eureka:latest AS eureka
-FROM publicdevop2019/oauth2service:hw AS oauth2
-FROM publicdevop2019/edgeproxy:hw AS proxy
-FROM publicdevop2019/messenger:hw AS messenger
-FROM publicdevop2019/file-upload:hw AS fileUpload
-FROM publicdevop2019/payment:hw AS payment
-FROM publicdevop2019/userprofile:hw AS userprofile
-FROM publicdevop2019/product:hw AS product
-FROM publicdevop2019/saga-orchestrator:hw AS saga
+FROM publicdevop2019/oauth2service:latest AS oauth2
+FROM publicdevop2019/edgeproxy:latest AS proxy
+FROM publicdevop2019/messenger:latest AS messenger
+FROM publicdevop2019/file-upload:latest AS file-upload
+FROM publicdevop2019/payment:latest AS payment
+FROM publicdevop2019/userprofile:latest AS user-profile
+FROM publicdevop2019/product:latest AS product
+FROM publicdevop2019/saga-orchestrator:latest AS saga
+FROM publicdevop2019/validator:latest AS validator
+FROM publicdevop2019/object-store:latest AS object-store
 FROM hirokimatsumoto/alpine-openjdk-11:latest as jlink-package
 
 RUN jlink \
@@ -28,12 +30,15 @@ COPY --from=eureka ./Eureka.jar ./
 COPY --from=oauth2 ./AuthService.jar ./
 COPY --from=proxy ./EdgeProxyService.jar ./
 COPY --from=messenger ./Messenger.jar ./
-COPY --from=fileUpload ./FileUpload.jar ./
-COPY --from=fileUpload ./files ./files
+COPY --from=file-upload ./FileUpload.jar ./
+COPY --from=file-upload ./files ./files
 COPY --from=payment ./Payment.jar ./
-COPY --from=userprofile ./UserProfile.jar ./
+COPY --from=user-profile ./UserProfile.jar ./
 COPY --from=product ./Product.jar ./
 COPY --from=saga ./SagaOrchestrator.jar ./
+COPY --from=object-store ./ObjectStore.jar ./
+RUN mkdir validator
+COPY --from=validator . ./validator
 
 COPY ./start-up.sh /
 RUN chmod 777 ./start-up.sh
