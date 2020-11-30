@@ -19,7 +19,7 @@ RUN jlink \
      --no-man-pages \
      --output /opt/jdk-11-mini-runtime
 
-FROM alpine:3.8
+FROM node:14.15.1-alpine3.12
 
 ENV JAVA_HOME=/opt/jdk-11-mini-runtime
 ENV PATH="$PATH:$JAVA_HOME/bin"
@@ -37,7 +37,7 @@ COPY --from=product ./Product.jar ./
 COPY --from=saga ./SagaOrchestrator.jar ./
 COPY --from=object-store ./ObjectStore.jar ./
 RUN mkdir validator
-COPY --from=validator . ./validator
+COPY --from=validator /usr/src/app ./validator
 
 COPY ./start-up.sh /
 RUN chmod 777 ./start-up.sh
