@@ -1,0 +1,3578 @@
+[{
+  "_id": 838330249904133,
+  "events": [
+    {
+      "type": "setvalue",
+      "id": 1606492805445,
+      "formId": "client",
+      "key": "name",
+      "value": "loginId",
+      "createAt": 1606492805445
+    },
+    {
+      "type": "setvalue",
+      "id": 1606492833691,
+      "formId": "client",
+      "key": "resourceIndicator",
+      "value": false,
+      "createAt": 1606492833691
+    },
+    {
+      "type": "setvalue",
+      "id": 1606492838134,
+      "formId": "client",
+      "key": "grantType",
+      "value": "PASSWORD",
+      "createAt": 1606492838134
+    },
+    {
+      "type": "setvalue",
+      "id": 1606492839430,
+      "formId": "client",
+      "key": "refreshToken",
+      "value": true,
+      "createAt": 1606492839430
+    },
+    {
+      "type": "setvalue",
+      "id": 1606492849273,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "120",
+      "createAt": 1606492849273
+    },
+    {
+      "type": "setvalue",
+      "id": 1606492879260,
+      "formId": "client",
+      "key": "refreshTokenValiditySeconds",
+      "value": "1800",
+      "createAt": 1606492879260
+    },
+    {
+      "type": "setvalue",
+      "id": 1606492892072,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_FRONTEND",
+        "ROLE_TRUST",
+        "ROLE_ROOT"
+      ],
+      "createAt": 1606492892072
+    },
+    {
+      "type": "setvalue",
+      "id": 1606492906038,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "READ",
+        "WRITE",
+        "TRUST"
+      ],
+      "createAt": 1606492906038
+    },
+    {
+      "type": "setvalue",
+      "id": 1606542168477,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904134",
+        "838330249904141",
+        "838330249904145",
+        "838330249904146",
+        "838330249904148",
+        "838330249904151",
+        "838330249904152",
+        "841551895330816"
+      ],
+      "createAt": 1606542168477
+    }
+  ],
+  "version": 2,
+  "createdBy": "838330249904129",
+  "createdAt": {
+    "$date": "2020-11-27T16:01:52.933Z"
+  },
+  "modifiedBy": "838330249904129",
+  "modifiedAt": {
+    "$date": "2020-11-28T17:18:05.627Z"
+  },
+  "_class": "com.hw.aggregate.event.model.BizEvent"
+},{
+  "_id": 838330249904134,
+  "events": [
+    {
+      "type": "setvalue",
+      "id": 1606577911631,
+      "formId": "client",
+      "key": "name",
+      "value": "oauth2Id",
+      "createAt": 1606577911631
+    },
+    {
+      "type": "setvalue",
+      "id": 1606577914543,
+      "formId": "client",
+      "key": "hasSecret",
+      "value": true,
+      "createAt": 1606577914543
+    },
+    {
+      "type": "setvalue",
+      "id": 1606577916296,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "r",
+      "createAt": 1606577916296
+    },
+    {
+      "type": "setvalue",
+      "id": 1606577916495,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "ro",
+      "createAt": 1606577916495
+    },
+    {
+      "type": "setvalue",
+      "id": 1606577916652,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "roo",
+      "createAt": 1606577916652
+    },
+    {
+      "type": "setvalue",
+      "id": 1606577916793,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "root",
+      "createAt": 1606577916793
+    },
+    {
+      "type": "setvalue",
+      "id": 1606577928415,
+      "formId": "client",
+      "key": "grantType",
+      "value": "CLIENT_CREDENTIALS",
+      "createAt": 1606577928415
+    },
+    {
+      "type": "setvalue",
+      "id": 1606577932470,
+      "formId": "client",
+      "key": "resourceIndicator",
+      "value": true,
+      "createAt": 1606577932470
+    },
+    {
+      "type": "setvalue",
+      "id": 1606577935926,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_ROOT"
+      ],
+      "createAt": 1606577935926
+    },
+    {
+      "type": "setvalue",
+      "id": 1606577936941,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_TRUST",
+        "ROLE_ROOT"
+      ],
+      "createAt": 1606577936941
+    },
+    {
+      "type": "setvalue",
+      "id": 1606577938268,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_FIRST_PARTY",
+        "ROLE_TRUST",
+        "ROLE_ROOT"
+      ],
+      "createAt": 1606577938268
+    },
+    {
+      "type": "setvalue",
+      "id": 1606577940252,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND",
+        "ROLE_FIRST_PARTY",
+        "ROLE_TRUST",
+        "ROLE_ROOT"
+      ],
+      "createAt": 1606577940252
+    },
+    {
+      "type": "setvalue",
+      "id": 1606577955844,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "READ"
+      ],
+      "createAt": 1606577955844
+    },
+    {
+      "type": "setvalue",
+      "id": 1606577957747,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "READ",
+        "WRITE"
+      ],
+      "createAt": 1606577957747
+    },
+    {
+      "type": "setvalue",
+      "id": 1606577959234,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "READ",
+        "WRITE",
+        "TRUST"
+      ],
+      "createAt": 1606577959234
+    },
+    {
+      "type": "setvalue",
+      "id": 1606578032006,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904147"
+      ],
+      "createAt": 1606578032006
+    },
+    {
+      "type": "setvalue",
+      "id": 1606578035209,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904134",
+        "838330249904147"
+      ],
+      "createAt": 1606578035209
+    },
+    {
+      "type": "setvalue",
+      "id": 1606578038556,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904134",
+        "838330249904141",
+        "838330249904147"
+      ],
+      "createAt": 1606578038556
+    },
+    {
+      "type": "setvalue",
+      "id": 1606578053275,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "1",
+      "createAt": 1606578053275
+    },
+    {
+      "type": "setvalue",
+      "id": 1606578053383,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "12",
+      "createAt": 1606578053383
+    },
+    {
+      "type": "setvalue",
+      "id": 1606578053446,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "120",
+      "createAt": 1606578053446
+    }
+  ],
+  "version": 1,
+  "createdBy": "838330249904129",
+  "createdAt": {
+    "$date": "2020-11-28T15:40:57.610Z"
+  },
+  "modifiedBy": "838330249904129",
+  "modifiedAt": {
+    "$date": "2020-11-28T17:18:13.919Z"
+  },
+  "_class": "com.hw.aggregate.event.model.BizEvent"
+},{
+  "_id": 838330249904135,
+  "events": [
+    {
+      "type": "setvalue",
+      "id": 1606578148184,
+      "formId": "client",
+      "key": "name",
+      "value": " registerId",
+      "createAt": 1606578148184
+    },
+    {
+      "type": "setvalue",
+      "id": 1606578156990,
+      "formId": "client",
+      "key": "grantType",
+      "value": "CLIENT_CREDENTIALS",
+      "createAt": 1606578156990
+    },
+    {
+      "type": "setvalue",
+      "id": 1606578165490,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_FRONTEND"
+      ],
+      "createAt": 1606578165490
+    },
+    {
+      "type": "setvalue",
+      "id": 1606578166906,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_FRONTEND",
+        "ROLE_ROOT"
+      ],
+      "createAt": 1606578166906
+    },
+    {
+      "type": "setvalue",
+      "id": 1606578167860,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_FRONTEND",
+        "ROLE_FIRST_PARTY",
+        "ROLE_ROOT"
+      ],
+      "createAt": 1606578167860
+    },
+    {
+      "type": "setvalue",
+      "id": 1606578174713,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904134"
+      ],
+      "createAt": 1606578174713
+    },
+    {
+      "type": "setvalue",
+      "id": 1606578193567,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "WRITE"
+      ],
+      "createAt": 1606578193567
+    },
+    {
+      "type": "setvalue",
+      "id": 1606578202864,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "1",
+      "createAt": 1606578202864
+    },
+    {
+      "type": "setvalue",
+      "id": 1606578203007,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "12",
+      "createAt": 1606578203007
+    },
+    {
+      "type": "setvalue",
+      "id": 1606578203105,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "120",
+      "createAt": 1606578203105
+    }
+  ],
+  "version": 1,
+  "createdBy": "838330249904129",
+  "createdAt": {
+    "$date": "2020-11-28T15:43:25.842Z"
+  },
+  "modifiedBy": "838330249904129",
+  "modifiedAt": {
+    "$date": "2020-11-28T17:18:22.667Z"
+  },
+  "_class": "com.hw.aggregate.event.model.BizEvent"
+},{
+  "_id": 838330249904138,
+  "events": [
+    {
+      "type": "setvalue",
+      "id": 1606580129821,
+      "formId": "client",
+      "key": "name",
+      "value": "rightRoleNotSufficientResourceId",
+      "createAt": 1606580129821
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580133173,
+      "formId": "client",
+      "key": "grantType",
+      "value": "CLIENT_CREDENTIALS",
+      "createAt": 1606580133173
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580135653,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_FRONTEND"
+      ],
+      "createAt": 1606580135653
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580141007,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904134"
+      ],
+      "createAt": 1606580141007
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580149905,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "1",
+      "createAt": 1606580149905
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580150035,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "12",
+      "createAt": 1606580150035
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580150072,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "120",
+      "createAt": 1606580150072
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580174140,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "WRITE"
+      ],
+      "createAt": 1606580174140
+    }
+  ],
+  "version": 1,
+  "createdBy": "838330249904129",
+  "createdAt": {
+    "$date": "2020-11-28T16:16:47.206Z"
+  },
+  "modifiedBy": "838330249904129",
+  "modifiedAt": {
+    "$date": "2020-11-28T17:18:29.652Z"
+  },
+  "_class": "com.hw.aggregate.event.model.BizEvent"
+},{
+  "_id": 838330249904139,
+  "events": [
+    {
+      "type": "setvalue",
+      "id": 1606580245274,
+      "formId": "client",
+      "key": "name",
+      "value": "resourceId",
+      "createAt": 1606580245274
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580250646,
+      "formId": "client",
+      "key": "grantType",
+      "value": "PASSWORD",
+      "createAt": 1606580250646
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580260850,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_FIRST_PARTY"
+      ],
+      "createAt": 1606580260850
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580262814,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND",
+        "ROLE_FIRST_PARTY"
+      ],
+      "createAt": 1606580262814
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580274047,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904134"
+      ],
+      "createAt": 1606580274047
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580279561,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "READ"
+      ],
+      "createAt": 1606580279561
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580280983,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "READ",
+        "WRITE"
+      ],
+      "createAt": 1606580280983
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580282114,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "READ",
+        "WRITE",
+        "TRUST"
+      ],
+      "createAt": 1606580282114
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580300735,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "1",
+      "createAt": 1606580300735
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580300910,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "10",
+      "createAt": 1606580300910
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580300938,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "102",
+      "createAt": 1606580300938
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580302085,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "10",
+      "createAt": 1606580302085
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580302236,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "1",
+      "createAt": 1606580302236
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580302689,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "12",
+      "createAt": 1606580302689
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580302772,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "120",
+      "createAt": 1606580302772
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580461550,
+      "formId": "client",
+      "key": "resourceIndicator",
+      "value": true,
+      "createAt": 1606580461550
+    }
+  ],
+  "version": 2,
+  "createdBy": "838330249904129",
+  "createdAt": {
+    "$date": "2020-11-28T16:18:28.676Z"
+  },
+  "modifiedBy": "838330249904129",
+  "modifiedAt": {
+    "$date": "2020-11-28T17:18:37.728Z"
+  },
+  "_class": "com.hw.aggregate.event.model.BizEvent"
+},{
+  "_id": 838330249904141,
+  "events": [
+    {
+      "type": "setvalue",
+      "id": 1606580333336,
+      "formId": "client",
+      "key": "name",
+      "value": "edgeProxy",
+      "createAt": 1606580333336
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580340814,
+      "formId": "client",
+      "key": "grantType",
+      "value": "CLIENT_CREDENTIALS",
+      "createAt": 1606580340814
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580356922,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND"
+      ],
+      "createAt": 1606580356922
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580357782,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND",
+        "ROLE_FIRST_PARTY"
+      ],
+      "createAt": 1606580357782
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580370211,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND",
+        "ROLE_FIRST_PARTY",
+        "ROLE_ROOT"
+      ],
+      "createAt": 1606580370211
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580376501,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND",
+        "ROLE_FIRST_PARTY",
+        "ROLE_TRUST",
+        "ROLE_ROOT"
+      ],
+      "createAt": 1606580376501
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580392350,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "TRUST"
+      ],
+      "createAt": 1606580392350
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580403197,
+      "formId": "client",
+      "key": "resourceIndicator",
+      "value": true,
+      "createAt": 1606580403197
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580411316,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904134"
+      ],
+      "createAt": 1606580411316
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580444693,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "1",
+      "createAt": 1606580444693
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580444850,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "10",
+      "createAt": 1606580444850
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580445151,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "102",
+      "createAt": 1606580445151
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580445915,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "10",
+      "createAt": 1606580445915
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580446061,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "1",
+      "createAt": 1606580446061
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580446478,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "12",
+      "createAt": 1606580446478
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580446603,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "120",
+      "createAt": 1606580446603
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580641641,
+      "formId": "client",
+      "key": "hasSecret",
+      "value": true,
+      "createAt": 1606580641641
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580643150,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "r",
+      "createAt": 1606580643151
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580643322,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "ro",
+      "createAt": 1606580643322
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580643488,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "roo",
+      "createAt": 1606580643488
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580643706,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "root",
+      "createAt": 1606580643706
+    }
+  ],
+  "version": 2,
+  "createdBy": "838330249904129",
+  "createdAt": {
+    "$date": "2020-11-28T16:20:52.148Z"
+  },
+  "modifiedBy": "838330249904129",
+  "modifiedAt": {
+    "$date": "2020-11-28T17:18:53.787Z"
+  },
+  "_class": "com.hw.aggregate.event.model.BizEvent"
+},{
+  "_id": 838330249904144,
+  "events": [
+    {
+      "type": "setvalue",
+      "id": 1606580498705,
+      "formId": "client",
+      "key": "name",
+      "value": "objMarket",
+      "createAt": 1606580498705
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580506836,
+      "formId": "client",
+      "key": "grantType",
+      "value": "CLIENT_CREDENTIALS",
+      "createAt": 1606580506836
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580508617,
+      "formId": "client",
+      "key": "grantType",
+      "value": "AUTHORIZATION_CODE",
+      "createAt": 1606580508617
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580514945,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_FRONTEND"
+      ],
+      "createAt": 1606580514945
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580516676,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_FRONTEND",
+        "ROLE_FIRST_PARTY"
+      ],
+      "createAt": 1606580516676
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580541333,
+      "formId": "client",
+      "key": "registeredRedirectUri",
+      "value": "http://localhost:4200/account,http://localhost:4200/zh-Hans/account",
+      "createAt": 1606580541333
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580569604,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904145"
+      ],
+      "createAt": 1606580569604
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580570144,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904145",
+        "838330249904146"
+      ],
+      "createAt": 1606580570144
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580580291,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "TRUST"
+      ],
+      "createAt": 1606580580291
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580613296,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "1",
+      "createAt": 1606580613296
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580613476,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "12",
+      "createAt": 1606580613476
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580613615,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "120",
+      "createAt": 1606580613615
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580613783,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "1200",
+      "createAt": 1606580613783
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580614292,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "12000",
+      "createAt": 1606580614292
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581548407,
+      "formId": "client",
+      "key": "autoApprove",
+      "value": true,
+      "createAt": 1606581548407
+    }
+  ],
+  "version": 2,
+  "createdBy": "838330249904129",
+  "createdAt": {
+    "$date": "2020-11-28T16:23:39.787Z"
+  },
+  "modifiedBy": "838330249904129",
+  "modifiedAt": {
+    "$date": "2020-11-28T17:19:02.776Z"
+  },
+  "_class": "com.hw.aggregate.event.model.BizEvent"
+},{
+  "_id": 838330249904145,
+  "events": [
+    {
+      "type": "setvalue",
+      "id": 1606580693523,
+      "formId": "client",
+      "key": "name",
+      "value": "userProfile",
+      "createAt": 1606580693523
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580702021,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND"
+      ],
+      "createAt": 1606580702021
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580703770,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND",
+        "ROLE_TRUST"
+      ],
+      "createAt": 1606580703770
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580707283,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND",
+        "ROLE_FIRST_PARTY",
+        "ROLE_TRUST"
+      ],
+      "createAt": 1606580707283
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580714307,
+      "formId": "client",
+      "key": "grantType",
+      "value": "CLIENT_CREDENTIALS",
+      "createAt": 1606580714307
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580717017,
+      "formId": "client",
+      "key": "hasSecret",
+      "value": true,
+      "createAt": 1606580717017
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580718938,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "r",
+      "createAt": 1606580718938
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580719187,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "ro",
+      "createAt": 1606580719187
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580719355,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "roo",
+      "createAt": 1606580719355
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580719545,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "root",
+      "createAt": 1606580719545
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580738320,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904146"
+      ],
+      "createAt": 1606580738320
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580755675,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904146",
+        "838330249904147"
+      ],
+      "createAt": 1606580755675
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580758174,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904146",
+        "838330249904147",
+        "838330249904149"
+      ],
+      "createAt": 1606580758174
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580772213,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904146",
+        "838330249904147",
+        "838330249904149",
+        "838330249904152"
+      ],
+      "createAt": 1606580772213
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580790532,
+      "formId": "client",
+      "key": "resourceIndicator",
+      "value": true,
+      "createAt": 1606580790532
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580801418,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "TRUST"
+      ],
+      "createAt": 1606580801418
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580816782,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "1",
+      "createAt": 1606580816782
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580817039,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "12",
+      "createAt": 1606580817039
+    },
+    {
+      "type": "setvalue",
+      "id": 1606580817252,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "120",
+      "createAt": 1606580817252
+    }
+  ],
+  "version": 1,
+  "createdBy": "838330249904129",
+  "createdAt": {
+    "$date": "2020-11-28T16:26:59.914Z"
+  },
+  "modifiedBy": "838330249904129",
+  "modifiedAt": {
+    "$date": "2020-11-28T17:19:10.390Z"
+  },
+  "_class": "com.hw.aggregate.event.model.BizEvent"
+},{
+  "_id": 838330249904146,
+  "events": [
+    {
+      "type": "setvalue",
+      "id": 1606581363980,
+      "formId": "client",
+      "key": "name",
+      "value": " product",
+      "createAt": 1606581363980
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581367638,
+      "formId": "client",
+      "key": "resourceIndicator",
+      "value": true,
+      "createAt": 1606581367638
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581369243,
+      "formId": "client",
+      "key": "grantType",
+      "value": "CLIENT_CREDENTIALS",
+      "createAt": 1606581369243
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581370312,
+      "formId": "client",
+      "key": "hasSecret",
+      "value": true,
+      "createAt": 1606581370312
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581382460,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "r",
+      "createAt": 1606581382460
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581382621,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "ro",
+      "createAt": 1606581382621
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581382775,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "roo",
+      "createAt": 1606581382775
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581383006,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "root",
+      "createAt": 1606581383006
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581404969,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "TRUST"
+      ],
+      "createAt": 1606581404969
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581413892,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND"
+      ],
+      "createAt": 1606581413892
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581417180,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND",
+        "ROLE_TRUST"
+      ],
+      "createAt": 1606581417180
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581419564,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND",
+        "ROLE_FIRST_PARTY",
+        "ROLE_TRUST"
+      ],
+      "createAt": 1606581419564
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581425832,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "1",
+      "createAt": 1606581425832
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581426038,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "12",
+      "createAt": 1606581426038
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581426249,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "120",
+      "createAt": 1606581426249
+    }
+  ],
+  "version": 2,
+  "createdBy": "838330249904129",
+  "createdAt": {
+    "$date": "2020-11-28T16:37:09.215Z"
+  },
+  "modifiedBy": "838330249904129",
+  "modifiedAt": {
+    "$date": "2020-11-28T17:19:32.235Z"
+  },
+  "_class": "com.hw.aggregate.event.model.BizEvent"
+},{
+  "_id": 838330249904147,
+  "events": [
+    {
+      "type": "setvalue",
+      "id": 1606581445170,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904134"
+      ],
+      "createAt": 1606581445170
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581450278,
+      "formId": "client",
+      "key": "name",
+      "value": "messenger",
+      "createAt": 1606581450278
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581453512,
+      "formId": "client",
+      "key": "hasSecret",
+      "value": true,
+      "createAt": 1606581453512
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581454943,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "r",
+      "createAt": 1606581454943
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581455150,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "ro",
+      "createAt": 1606581455150
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581455311,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "roo",
+      "createAt": 1606581455311
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581455483,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "root",
+      "createAt": 1606581455483
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581457527,
+      "formId": "client",
+      "key": "grantType",
+      "value": "CLIENT_CREDENTIALS",
+      "createAt": 1606581457527
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581467774,
+      "formId": "client",
+      "key": "resourceIndicator",
+      "value": true,
+      "createAt": 1606581467774
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581472437,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "READ"
+      ],
+      "createAt": 1606581472437
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581488110,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND"
+      ],
+      "createAt": 1606581488110
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581488855,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND",
+        "ROLE_FIRST_PARTY"
+      ],
+      "createAt": 1606581488855
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581492257,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND",
+        "ROLE_FIRST_PARTY",
+        "ROLE_TRUST"
+      ],
+      "createAt": 1606581492257
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581502667,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "1",
+      "createAt": 1606581502667
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581502863,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "12",
+      "createAt": 1606581502863
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581502995,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "120",
+      "createAt": 1606581502995
+    }
+  ],
+  "version": 1,
+  "createdBy": "838330249904129",
+  "createdAt": {
+    "$date": "2020-11-28T16:38:25.616Z"
+  },
+  "modifiedBy": "838330249904129",
+  "modifiedAt": {
+    "$date": "2020-11-28T17:19:24.595Z"
+  },
+  "_class": "com.hw.aggregate.event.model.BizEvent"
+},{
+  "_id": 838330249904148,
+  "events": [
+    {
+      "type": "setvalue",
+      "id": 1606581568972,
+      "formId": "client",
+      "key": "name",
+      "value": "fileUpload",
+      "createAt": 1606581568972
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581571627,
+      "formId": "client",
+      "key": "hasSecret",
+      "value": true,
+      "createAt": 1606581571627
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581572673,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "r",
+      "createAt": 1606581572673
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581572922,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "ro",
+      "createAt": 1606581572922
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581573057,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "roo",
+      "createAt": 1606581573057
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581573245,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "root",
+      "createAt": 1606581573245
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581582419,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "READ"
+      ],
+      "createAt": 1606581582419
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581583368,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "READ",
+        "WRITE"
+      ],
+      "createAt": 1606581583368
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581584481,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "READ",
+        "WRITE",
+        "TRUST"
+      ],
+      "createAt": 1606581584481
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581586928,
+      "formId": "client",
+      "key": "grantType",
+      "value": "CLIENT_CREDENTIALS",
+      "createAt": 1606581586928
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581593442,
+      "formId": "client",
+      "key": "resourceIndicator",
+      "value": true,
+      "createAt": 1606581593442
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581602488,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND"
+      ],
+      "createAt": 1606581602488
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581603189,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND",
+        "ROLE_FIRST_PARTY"
+      ],
+      "createAt": 1606581603189
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581605328,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND",
+        "ROLE_FIRST_PARTY",
+        "ROLE_TRUST"
+      ],
+      "createAt": 1606581605328
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581615817,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "1",
+      "createAt": 1606581615817
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581615919,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "12",
+      "createAt": 1606581615919
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581616060,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "120",
+      "createAt": 1606581616060
+    }
+  ],
+  "version": 1,
+  "createdBy": "838330249904129",
+  "createdAt": {
+    "$date": "2020-11-28T16:40:18.156Z"
+  },
+  "modifiedBy": "838330249904129",
+  "modifiedAt": {
+    "$date": "2020-11-28T17:20:22.166Z"
+  },
+  "_class": "com.hw.aggregate.event.model.BizEvent"
+},{
+  "_id": 838330249904149,
+  "events": [
+    {
+      "type": "setvalue",
+      "id": 1606581634838,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "TRUST"
+      ],
+      "createAt": 1606581634838
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581636089,
+      "formId": "client",
+      "key": "resourceIndicator",
+      "value": true,
+      "createAt": 1606581636089
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581650957,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND"
+      ],
+      "createAt": 1606581650957
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581652994,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND",
+        "ROLE_FIRST_PARTY"
+      ],
+      "createAt": 1606581652994
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581655002,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND",
+        "ROLE_FIRST_PARTY",
+        "ROLE_TRUST"
+      ],
+      "createAt": 1606581655002
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581658883,
+      "formId": "client",
+      "key": "grantType",
+      "value": "CLIENT_CREDENTIALS",
+      "createAt": 1606581658883
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581661729,
+      "formId": "client",
+      "key": "hasSecret",
+      "value": true,
+      "createAt": 1606581661729
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581663272,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "r",
+      "createAt": 1606581663272
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581663430,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "ro",
+      "createAt": 1606581663430
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581663592,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "roo",
+      "createAt": 1606581663592
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581663786,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "root",
+      "createAt": 1606581663786
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581675856,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "1",
+      "createAt": 1606581675856
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581676060,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "12",
+      "createAt": 1606581676060
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581676211,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "120",
+      "createAt": 1606581676211
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581686994,
+      "formId": "client",
+      "key": "name",
+      "value": "payment",
+      "createAt": 1606581686994
+    }
+  ],
+  "version": 1,
+  "createdBy": "838330249904129",
+  "createdAt": {
+    "$date": "2020-11-28T16:41:30.698Z"
+  },
+  "modifiedBy": "838330249904129",
+  "modifiedAt": {
+    "$date": "2020-11-28T17:20:29.459Z"
+  },
+  "_class": "com.hw.aggregate.event.model.BizEvent"
+},{
+  "_id": 838330249904150,
+  "events": [
+    {
+      "type": "setvalue",
+      "id": 1606581700075,
+      "formId": "client",
+      "key": "name",
+      "value": "bbs",
+      "createAt": 1606581700075
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581707059,
+      "formId": "client",
+      "key": "grantType",
+      "value": "AUTHORIZATION_CODE",
+      "createAt": 1606581707059
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581708458,
+      "formId": "client",
+      "key": "registeredRedirectUri",
+      "value": "http://localhost:3000/account,http://localhost:3000/zh-Hans/account",
+      "createAt": 1606581708458
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581715712,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_FRONTEND"
+      ],
+      "createAt": 1606581715712
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581717091,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_FRONTEND",
+        "ROLE_FIRST_PARTY"
+      ],
+      "createAt": 1606581717091
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581763200,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904148"
+      ],
+      "createAt": 1606581763200
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581779421,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904148",
+        "838330249904151"
+      ],
+      "createAt": 1606581779421
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581794633,
+      "formId": "client",
+      "key": "resourceIndicator",
+      "value": true,
+      "createAt": 1606581794633
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581807785,
+      "formId": "client",
+      "key": "autoApprove",
+      "value": true,
+      "createAt": 1606581807785
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581817633,
+      "formId": "client",
+      "key": "resourceIndicator",
+      "value": false,
+      "createAt": 1606581817633
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581825462,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "WRITE"
+      ],
+      "createAt": 1606581825462
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581828266,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "WRITE",
+        "TRUST"
+      ],
+      "createAt": 1606581828266
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581835744,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "1",
+      "createAt": 1606581835744
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581835920,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "12",
+      "createAt": 1606581835920
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581836111,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "120",
+      "createAt": 1606581836111
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581836253,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "1200",
+      "createAt": 1606581836253
+    }
+  ],
+  "version": 1,
+  "createdBy": "838330249904129",
+  "createdAt": {
+    "$date": "2020-11-28T16:43:58.943Z"
+  },
+  "modifiedBy": "838330249904129",
+  "modifiedAt": {
+    "$date": "2020-11-28T17:20:35.857Z"
+  },
+  "_class": "com.hw.aggregate.event.model.BizEvent"
+},{
+  "_id": 838330249904151,
+  "events": [
+    {
+      "type": "setvalue",
+      "id": 1606581849584,
+      "formId": "client",
+      "key": "name",
+      "value": "bbsBackend",
+      "createAt": 1606581849584
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581851154,
+      "formId": "client",
+      "key": "hasSecret",
+      "value": true,
+      "createAt": 1606581851154
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581852215,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "r",
+      "createAt": 1606581852215
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581852574,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "ro",
+      "createAt": 1606581852574
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581852726,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "roo",
+      "createAt": 1606581852726
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581852851,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "root",
+      "createAt": 1606581852851
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581854852,
+      "formId": "client",
+      "key": "grantType",
+      "value": "CLIENT_CREDENTIALS",
+      "createAt": 1606581854852
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581856407,
+      "formId": "client",
+      "key": "resourceIndicator",
+      "value": true,
+      "createAt": 1606581856407
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581864808,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND"
+      ],
+      "createAt": 1606581864808
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581866419,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND",
+        "ROLE_TRUST"
+      ],
+      "createAt": 1606581866419
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581867489,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND",
+        "ROLE_FIRST_PARTY",
+        "ROLE_TRUST"
+      ],
+      "createAt": 1606581867489
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581871423,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "TRUST"
+      ],
+      "createAt": 1606581871423
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581887082,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "1",
+      "createAt": 1606581887082
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581887167,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "12",
+      "createAt": 1606581887167
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581887228,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "120",
+      "createAt": 1606581887228
+    }
+  ],
+  "version": 1,
+  "createdBy": "838330249904129",
+  "createdAt": {
+    "$date": "2020-11-28T16:44:49.456Z"
+  },
+  "modifiedBy": "838330249904129",
+  "modifiedAt": {
+    "$date": "2020-11-28T17:20:43.393Z"
+  },
+  "_class": "com.hw.aggregate.event.model.BizEvent"
+},{
+  "_id": 838330249904152,
+  "events": [
+    {
+      "type": "setvalue",
+      "id": 1606581915437,
+      "formId": "client",
+      "key": "name",
+      "value": "sagaOrchestrator",
+      "createAt": 1606581915437
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581918685,
+      "formId": "client",
+      "key": "hasSecret",
+      "value": true,
+      "createAt": 1606581918685
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581919867,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "r",
+      "createAt": 1606581919867
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581920049,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "ro",
+      "createAt": 1606581920049
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581920195,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "roo",
+      "createAt": 1606581920195
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581920316,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "root",
+      "createAt": 1606581920316
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581922433,
+      "formId": "client",
+      "key": "grantType",
+      "value": "CLIENT_CREDENTIALS",
+      "createAt": 1606581922433
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581937048,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "TRUST"
+      ],
+      "createAt": 1606581937048
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581962385,
+      "formId": "client",
+      "key": "resourceIndicator",
+      "value": true,
+      "createAt": 1606581962385
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581967815,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND"
+      ],
+      "createAt": 1606581967815
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581971483,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND",
+        "ROLE_TRUST"
+      ],
+      "createAt": 1606581971483
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581975453,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND",
+        "ROLE_FIRST_PARTY",
+        "ROLE_TRUST"
+      ],
+      "createAt": 1606581975453
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581986143,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "1",
+      "createAt": 1606581986143
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581986322,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "12",
+      "createAt": 1606581986322
+    },
+    {
+      "type": "setvalue",
+      "id": 1606581986420,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "120",
+      "createAt": 1606581986420
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582001092,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904145"
+      ],
+      "createAt": 1606582001092
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582004875,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904145",
+        "838330249904146"
+      ],
+      "createAt": 1606582004875
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582007521,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904145",
+        "838330249904146",
+        "838330249904147"
+      ],
+      "createAt": 1606582007521
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582015339,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904145",
+        "838330249904146",
+        "838330249904147",
+        "838330249904149"
+      ],
+      "createAt": 1606582015339
+    }
+  ],
+  "version": 2,
+  "createdBy": "838330249904129",
+  "createdAt": {
+    "$date": "2020-11-28T16:47:00.477Z"
+  },
+  "modifiedBy": "838330249904129",
+  "modifiedAt": {
+    "$date": "2020-11-28T17:20:55.686Z"
+  },
+  "_class": "com.hw.aggregate.event.model.BizEvent"
+},{
+  "_id": 838330249904153,
+  "events": [
+    {
+      "type": "setvalue",
+      "id": 1606582041398,
+      "formId": "client",
+      "key": "name",
+      "value": "testId",
+      "createAt": 1606582041398
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582053247,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_ROOT"
+      ],
+      "createAt": 1606582053247
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582054280,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_FRONTEND",
+        "ROLE_ROOT"
+      ],
+      "createAt": 1606582054280
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582055381,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_FRONTEND",
+        "ROLE_TRUST",
+        "ROLE_ROOT"
+      ],
+      "createAt": 1606582055381
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582061925,
+      "formId": "client",
+      "key": "grantType",
+      "value": "PASSWORD",
+      "createAt": 1606582061925
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582068145,
+      "formId": "client",
+      "key": "refreshToken",
+      "value": true,
+      "createAt": 1606582068145
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582073734,
+      "formId": "client",
+      "key": "refreshTokenValiditySeconds",
+      "value": "1",
+      "createAt": 1606582073734
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582073902,
+      "formId": "client",
+      "key": "refreshTokenValiditySeconds",
+      "value": "18",
+      "createAt": 1606582073902
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582074070,
+      "formId": "client",
+      "key": "refreshTokenValiditySeconds",
+      "value": "180",
+      "createAt": 1606582074070
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582074234,
+      "formId": "client",
+      "key": "refreshTokenValiditySeconds",
+      "value": "1800",
+      "createAt": 1606582074234
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582079975,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "1",
+      "createAt": 1606582079975
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582080158,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "12",
+      "createAt": 1606582080158
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582080284,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "120",
+      "createAt": 1606582080284
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582090708,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "READ"
+      ],
+      "createAt": 1606582090708
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582091713,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "READ",
+        "WRITE"
+      ],
+      "createAt": 1606582091713
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582092998,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "READ",
+        "WRITE",
+        "TRUST"
+      ],
+      "createAt": 1606582092998
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582148886,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904134"
+      ],
+      "createAt": 1606582148886
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582154632,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904134",
+        "838330249904141"
+      ],
+      "createAt": 1606582154632
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582166013,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904134",
+        "838330249904141",
+        "838330249904145"
+      ],
+      "createAt": 1606582166013
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582168961,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904134",
+        "838330249904141",
+        "838330249904145",
+        "838330249904146"
+      ],
+      "createAt": 1606582168961
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582177091,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904134",
+        "838330249904141",
+        "838330249904145",
+        "838330249904146",
+        "838330249904148"
+      ],
+      "createAt": 1606582177091
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582190081,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904134",
+        "838330249904141",
+        "838330249904145",
+        "838330249904146",
+        "838330249904148",
+        "842311604895744"
+      ],
+      "createAt": 1606582190081
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582190707,
+      "formId": "client",
+      "key": "resourceId",
+      "value": [
+        "838330249904134",
+        "838330249904141",
+        "838330249904145",
+        "838330249904146",
+        "838330249904148",
+        "842311604895744",
+        "842311673577472"
+      ],
+      "createAt": 1606582190707
+    },
+    {
+      "type": "setvalue",
+      "id": 1606588996372,
+      "formId": "client",
+      "key": "refreshToken",
+      "value": false,
+      "createAt": 1606588996372
+    }
+  ],
+  "version": 2,
+  "createdBy": "838330249904129",
+  "createdAt": {
+    "$date": "2020-11-28T16:49:53.385Z"
+  },
+  "modifiedBy": "838330249904129",
+  "modifiedAt": {
+    "$date": "2020-11-28T18:43:20.914Z"
+  },
+  "_class": "com.hw.aggregate.event.model.BizEvent"
+},{
+  "_id": 841551895330816,
+  "events": [
+    {
+      "type": "setvalue",
+      "id": 1606582221285,
+      "formId": "client",
+      "key": "name",
+      "value": "eventStore",
+      "createAt": 1606582221285
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582224054,
+      "formId": "client",
+      "key": "hasSecret",
+      "value": true,
+      "createAt": 1606582224054
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582225969,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "r",
+      "createAt": 1606582225969
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582226231,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "ro",
+      "createAt": 1606582226231
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582226387,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "roo",
+      "createAt": 1606582226387
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582226541,
+      "formId": "client",
+      "key": "clientSecret",
+      "value": "root",
+      "createAt": 1606582226541
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582231430,
+      "formId": "client",
+      "key": "grantType",
+      "value": "CLIENT_CREDENTIALS",
+      "createAt": 1606582231430
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582239493,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_ROOT"
+      ],
+      "createAt": 1606582239493
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582241645,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND",
+        "ROLE_ROOT"
+      ],
+      "createAt": 1606582241645
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582242316,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND",
+        "ROLE_FIRST_PARTY",
+        "ROLE_ROOT"
+      ],
+      "createAt": 1606582242316
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582247106,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_BACKEND",
+        "ROLE_FIRST_PARTY",
+        "ROLE_TRUST",
+        "ROLE_ROOT"
+      ],
+      "createAt": 1606582247106
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582273250,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "READ"
+      ],
+      "createAt": 1606582273251
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582274591,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "READ",
+        "WRITE"
+      ],
+      "createAt": 1606582274591
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582275388,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "READ",
+        "WRITE",
+        "TRUST"
+      ],
+      "createAt": 1606582275388
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582302677,
+      "formId": "client",
+      "key": "resourceIndicator",
+      "value": true,
+      "createAt": 1606582302677
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582308070,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "1",
+      "createAt": 1606582308070
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582308260,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "12",
+      "createAt": 1606582308260
+    },
+    {
+      "type": "setvalue",
+      "id": 1606582308472,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "120",
+      "createAt": 1606582308472
+    }
+  ],
+  "version": 1,
+  "createdBy": "838330249904129",
+  "createdAt": {
+    "$date": "2020-11-28T16:51:50.639Z"
+  },
+  "modifiedBy": "838330249904129",
+  "modifiedAt": {
+    "$date": "2020-11-28T17:19:52.029Z"
+  },
+  "_class": "com.hw.aggregate.event.model.BizEvent"
+},{
+  "_id": 842316909142016,
+  "events": [
+    {
+      "type": "setvalue",
+      "id": 1606591844497,
+      "formId": "product",
+      "key": "selectBackendCatalog",
+      "value": "835972581318656",
+      "createAt": 1606591844497
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591851792,
+      "formId": "product",
+      "key": "name",
+      "value": "t",
+      "createAt": 1606591851792
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591851833,
+      "formId": "product",
+      "key": "name",
+      "value": "te",
+      "createAt": 1606591851833
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591851869,
+      "formId": "product",
+      "key": "name",
+      "value": "tes",
+      "createAt": 1606591851869
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591851973,
+      "formId": "product",
+      "key": "name",
+      "value": "test",
+      "createAt": 1606591851973
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591948715,
+      "formId": "product",
+      "key": "status",
+      "value": "AVAILABLE",
+      "createAt": 1606591948715
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591951609,
+      "formId": "product",
+      "key": "hasSku",
+      "value": "YES",
+      "createAt": 1606591951609
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591962436,
+      "formId": "product",
+      "key": "imageUrlSmall",
+      "value": "http://localhost:8111/file-upload-svc/files/public/842316886089728",
+      "createAt": 1606591962436
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591969609,
+      "formId": "attrSalesFormChild",
+      "key": "attributeId",
+      "value": 835604663263232,
+      "createAt": 1606591969609
+    },
+    {
+      "type": "addForm",
+      "id": 1606591971054,
+      "formId": "attrSalesFormChild",
+      "createAt": 1606591971054
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591973035,
+      "formId": "attrSalesFormChild",
+      "key": "attributeId_0",
+      "value": 835604723556352,
+      "createAt": 1606591973035
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591975058,
+      "formId": "attrSalesFormChild",
+      "key": "attributeValueSelect",
+      "value": "155/76A/XS",
+      "createAt": 1606591975058
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591976674,
+      "formId": "attrSalesFormChild",
+      "key": "attributeValueSelect_0",
+      "value": "玫红",
+      "createAt": 1606591976674
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591978782,
+      "formId": "attributeSales",
+      "key": "storageOrder",
+      "value": "1",
+      "createAt": 1606591978782
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591978869,
+      "formId": "attributeSales",
+      "key": "storageOrder",
+      "value": "10",
+      "createAt": 1606591978869
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591979076,
+      "formId": "attributeSales",
+      "key": "storageOrder",
+      "value": "101",
+      "createAt": 1606591979076
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591979532,
+      "formId": "attributeSales",
+      "key": "storageActual",
+      "value": "1",
+      "createAt": 1606591979532
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591979743,
+      "formId": "attributeSales",
+      "key": "storageActual",
+      "value": "10",
+      "createAt": 1606591979743
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591981004,
+      "formId": "attributeSales",
+      "key": "storageActual",
+      "value": "101",
+      "createAt": 1606591981004
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591982693,
+      "formId": "attributeSales",
+      "key": "price",
+      "value": "9",
+      "createAt": 1606591982693
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591982833,
+      "formId": "attributeSales",
+      "key": "price",
+      "value": "99",
+      "createAt": 1606591982833
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591983509,
+      "formId": "attributeSales",
+      "key": "price",
+      "value": "99.",
+      "createAt": 1606591983509
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591984789,
+      "formId": "attributeSales",
+      "key": "price",
+      "value": "99.7",
+      "createAt": 1606591984789
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591985878,
+      "formId": "attributeSales",
+      "key": "price",
+      "value": "99.75",
+      "createAt": 1606591985878
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591987502,
+      "formId": "attributeSales",
+      "key": "sales",
+      "value": "0",
+      "createAt": 1606591987502
+    },
+    {
+      "type": "addForm",
+      "id": 1606591988983,
+      "formId": "attributeSales",
+      "createAt": 1606591988983
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591991113,
+      "formId": "attrSalesFormChild_0",
+      "key": "attributeId",
+      "value": 835604663263232,
+      "createAt": 1606591991113
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591993144,
+      "formId": "attrSalesFormChild_0",
+      "key": "attributeValueSelect",
+      "value": "155/76A/XS",
+      "createAt": 1606591993144
+    },
+    {
+      "type": "addForm",
+      "id": 1606591994475,
+      "formId": "attrSalesFormChild_0",
+      "createAt": 1606591994475
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591995747,
+      "formId": "attrSalesFormChild_0",
+      "key": "attributeId_0",
+      "value": 835604723556352,
+      "createAt": 1606591995747
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591997245,
+      "formId": "attrSalesFormChild_0",
+      "key": "attributeValueSelect_0",
+      "value": "米色",
+      "createAt": 1606591997245
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591998742,
+      "formId": "attributeSales",
+      "key": "storageOrder_0",
+      "value": "2",
+      "createAt": 1606591998742
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591998839,
+      "formId": "attributeSales",
+      "key": "storageOrder_0",
+      "value": "20",
+      "createAt": 1606591998839
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591999313,
+      "formId": "attributeSales",
+      "key": "storageActual_0",
+      "value": "2",
+      "createAt": 1606591999313
+    },
+    {
+      "type": "setvalue",
+      "id": 1606591999462,
+      "formId": "attributeSales",
+      "key": "storageActual_0",
+      "value": "20",
+      "createAt": 1606591999462
+    },
+    {
+      "type": "setvalue",
+      "id": 1606592000652,
+      "formId": "attributeSales",
+      "key": "price_0",
+      "value": "8",
+      "createAt": 1606592000652
+    },
+    {
+      "type": "setvalue",
+      "id": 1606592000793,
+      "formId": "attributeSales",
+      "key": "price_0",
+      "value": "88",
+      "createAt": 1606592000793
+    },
+    {
+      "type": "setvalue",
+      "id": 1606592001067,
+      "formId": "attributeSales",
+      "key": "price_0",
+      "value": "88.",
+      "createAt": 1606592001067
+    },
+    {
+      "type": "setvalue",
+      "id": 1606592001299,
+      "formId": "attributeSales",
+      "key": "price_0",
+      "value": "88.8",
+      "createAt": 1606592001299
+    },
+    {
+      "type": "setvalue",
+      "id": 1606592001431,
+      "formId": "attributeSales",
+      "key": "price_0",
+      "value": "88.88",
+      "createAt": 1606592001431
+    },
+    {
+      "type": "setvalue",
+      "id": 1606592002290,
+      "formId": "attributeSales",
+      "key": "sales_0",
+      "value": "0",
+      "createAt": 1606592002290
+    }
+  ],
+  "version": 1,
+  "createdBy": "838330249904129",
+  "createdAt": {
+    "$date": "2020-11-28T19:33:27.144Z"
+  },
+  "_class": "com.hw.aggregate.event.model.BizEvent"
+},{
+  "_id": 842333792264192,
+  "events": [
+    {
+      "type": "setvalue",
+      "id": 1606624134054,
+      "formId": "product",
+      "key": "selectBackendCatalog",
+      "value": "835657729597440",
+      "createAt": 1606624134054
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624136663,
+      "formId": "product",
+      "key": "name",
+      "value": "t",
+      "createAt": 1606624136663
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624136738,
+      "formId": "product",
+      "key": "name",
+      "value": "te",
+      "createAt": 1606624136738
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624136805,
+      "formId": "product",
+      "key": "name",
+      "value": "tes",
+      "createAt": 1606624136805
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624136922,
+      "formId": "product",
+      "key": "name",
+      "value": "test",
+      "createAt": 1606624136922
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624142101,
+      "formId": "product",
+      "key": "imageUrlSmall",
+      "value": "http://localhost:8111/file-upload-svc/files/public/842333757677568",
+      "createAt": 1606624142101
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624143822,
+      "formId": "product",
+      "key": "status",
+      "value": "AVAILABLE",
+      "createAt": 1606624143822
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624145531,
+      "formId": "product",
+      "key": "hasSku",
+      "value": "YES",
+      "createAt": 1606624145531
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624153202,
+      "formId": "attrSalesFormChild",
+      "key": "attributeId",
+      "value": 835604663263232,
+      "createAt": 1606624153202
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624154950,
+      "formId": "attrSalesFormChild",
+      "key": "attributeValueSelect",
+      "value": "160/84A/S",
+      "createAt": 1606624154950
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624156795,
+      "formId": "attributeSales",
+      "key": "storageOrder",
+      "value": "1",
+      "createAt": 1606624156795
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624156893,
+      "formId": "attributeSales",
+      "key": "storageOrder",
+      "value": "10",
+      "createAt": 1606624156893
+    },
+    {
+      "type": "addForm",
+      "id": 1606624158671,
+      "formId": "attrSalesFormChild",
+      "createAt": 1606624158671
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624160174,
+      "formId": "attrSalesFormChild",
+      "key": "attributeId_0",
+      "value": 835604723556352,
+      "createAt": 1606624160174
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624161592,
+      "formId": "attrSalesFormChild",
+      "key": "attributeValueSelect_0",
+      "value": "粉色",
+      "createAt": 1606624161592
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624163876,
+      "formId": "attributeSales",
+      "key": "storageActual",
+      "value": "1",
+      "createAt": 1606624163876
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624163928,
+      "formId": "attributeSales",
+      "key": "storageActual",
+      "value": "10",
+      "createAt": 1606624163928
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624165010,
+      "formId": "attributeSales",
+      "key": "price",
+      "value": "1",
+      "createAt": 1606624165010
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624165154,
+      "formId": "attributeSales",
+      "key": "price",
+      "value": "10",
+      "createAt": 1606624165154
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624165665,
+      "formId": "attributeSales",
+      "key": "price",
+      "value": "101",
+      "createAt": 1606624165665
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624166665,
+      "formId": "attributeSales",
+      "key": "sales",
+      "value": "0",
+      "createAt": 1606624166665
+    },
+    {
+      "type": "addForm",
+      "id": 1606624168266,
+      "formId": "attributeSales",
+      "createAt": 1606624168266
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624170717,
+      "formId": "attrSalesFormChild_0",
+      "key": "attributeId",
+      "value": 835604663263232,
+      "createAt": 1606624170717
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624172394,
+      "formId": "attrSalesFormChild_0",
+      "key": "attributeValueSelect",
+      "value": "155/76A/XS",
+      "createAt": 1606624172394
+    },
+    {
+      "type": "addForm",
+      "id": 1606624173964,
+      "formId": "attrSalesFormChild_0",
+      "createAt": 1606624173964
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624175488,
+      "formId": "attrSalesFormChild_0",
+      "key": "attributeId_0",
+      "value": 835604723556352,
+      "createAt": 1606624175488
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624177012,
+      "formId": "attrSalesFormChild_0",
+      "key": "attributeValueSelect_0",
+      "value": "玫红",
+      "createAt": 1606624177012
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624178324,
+      "formId": "attributeSales",
+      "key": "storageOrder_0",
+      "value": "2",
+      "createAt": 1606624178324
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624178508,
+      "formId": "attributeSales",
+      "key": "storageOrder_0",
+      "value": "20",
+      "createAt": 1606624178508
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624179044,
+      "formId": "attributeSales",
+      "key": "storageActual_0",
+      "value": "2",
+      "createAt": 1606624179044
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624179211,
+      "formId": "attributeSales",
+      "key": "storageActual_0",
+      "value": "20",
+      "createAt": 1606624179211
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624180928,
+      "formId": "attributeSales",
+      "key": "price_0",
+      "value": "1",
+      "createAt": 1606624180928
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624182449,
+      "formId": "attributeSales",
+      "key": "price_0",
+      "value": "15",
+      "createAt": 1606624182449
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624183037,
+      "formId": "attributeSales",
+      "key": "price_0",
+      "value": "154",
+      "createAt": 1606624183037
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624185114,
+      "formId": "attributeSales",
+      "key": "sales_0",
+      "value": "0",
+      "createAt": 1606624185114
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624189599,
+      "formId": "attributesProd",
+      "key": "attributeId",
+      "value": 835602958278656,
+      "createAt": 1606624189599
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624191516,
+      "formId": "attributesProd",
+      "key": "attributeValueSelect",
+      "value": "女",
+      "createAt": 1606624191516
+    },
+    {
+      "type": "addForm",
+      "id": 1606624193089,
+      "formId": "attributesProd",
+      "createAt": 1606624193089
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624196558,
+      "formId": "attributesProd",
+      "key": "attributeId_0",
+      "value": 835717107310592,
+      "createAt": 1606624196558
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624198237,
+      "formId": "attributesProd",
+      "key": "attributeValueSelect_0",
+      "value": "一字领",
+      "createAt": 1606624198237
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624201065,
+      "formId": "attributesGeneral",
+      "key": "attributeId",
+      "value": 835605047566336,
+      "createAt": 1606624201065
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624203334,
+      "formId": "attributesGeneral",
+      "key": "attributeValueManual",
+      "value": "2",
+      "createAt": 1606624203334
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624203668,
+      "formId": "attributesGeneral",
+      "key": "attributeValueManual",
+      "value": "23",
+      "createAt": 1606624203668
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624204590,
+      "formId": "attributesGeneral",
+      "key": "attributeValueManual",
+      "value": "23-",
+      "createAt": 1606624204590
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624205316,
+      "formId": "attributesGeneral",
+      "key": "attributeValueManual",
+      "value": "23-2",
+      "createAt": 1606624205316
+    },
+    {
+      "type": "setvalue",
+      "id": 1606624205501,
+      "formId": "attributesGeneral",
+      "key": "attributeValueManual",
+      "value": "23-28",
+      "createAt": 1606624205501
+    }
+  ],
+  "version": 0,
+  "createdBy": "838330249904129",
+  "createdAt": {
+    "$date": "2020-11-29T04:30:09.878Z"
+  },
+  "_class": "com.hw.aggregate.event.model.BizEvent"
+},{
+  "_id": 842358355656704,
+  "events": [
+    {
+      "type": "setvalue",
+      "id": 1606671044468,
+      "formId": "client",
+      "key": "name",
+      "value": "t",
+      "createAt": 1606671044468
+    },
+    {
+      "type": "setvalue",
+      "id": 1606671044538,
+      "formId": "client",
+      "key": "name",
+      "value": "te",
+      "createAt": 1606671044538
+    },
+    {
+      "type": "setvalue",
+      "id": 1606671044575,
+      "formId": "client",
+      "key": "name",
+      "value": "tes",
+      "createAt": 1606671044575
+    },
+    {
+      "type": "setvalue",
+      "id": 1606671044684,
+      "formId": "client",
+      "key": "name",
+      "value": "test",
+      "createAt": 1606671044684
+    },
+    {
+      "type": "setvalue",
+      "id": 1606671046658,
+      "formId": "client",
+      "key": "description",
+      "value": "t",
+      "createAt": 1606671046658
+    },
+    {
+      "type": "setvalue",
+      "id": 1606671046747,
+      "formId": "client",
+      "key": "description",
+      "value": "te",
+      "createAt": 1606671046747
+    },
+    {
+      "type": "setvalue",
+      "id": 1606671046771,
+      "formId": "client",
+      "key": "description",
+      "value": "tes",
+      "createAt": 1606671046771
+    },
+    {
+      "type": "setvalue",
+      "id": 1606671046881,
+      "formId": "client",
+      "key": "description",
+      "value": "test",
+      "createAt": 1606671046881
+    },
+    {
+      "type": "setvalue",
+      "id": 1606671049288,
+      "formId": "client",
+      "key": "grantType",
+      "value": "CLIENT_CREDENTIALS",
+      "createAt": 1606671049288
+    },
+    {
+      "type": "setvalue",
+      "id": 1606671051250,
+      "formId": "client",
+      "key": "authority",
+      "value": [
+        "ROLE_FRONTEND"
+      ],
+      "createAt": 1606671051250
+    },
+    {
+      "type": "setvalue",
+      "id": 1606671052490,
+      "formId": "client",
+      "key": "scope",
+      "value": [
+        "READ"
+      ],
+      "createAt": 1606671052490
+    },
+    {
+      "type": "setvalue",
+      "id": 1606671055926,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "1",
+      "createAt": 1606671055926
+    },
+    {
+      "type": "setvalue",
+      "id": 1606671056109,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "12",
+      "createAt": 1606671056109
+    },
+    {
+      "type": "setvalue",
+      "id": 1606671056316,
+      "formId": "client",
+      "key": "accessTokenValiditySeconds",
+      "value": "123",
+      "createAt": 1606671056316
+    }
+  ],
+  "version": 0,
+  "createdBy": "838330249904129",
+  "createdAt": {
+    "$date": "2020-11-29T17:31:00.005Z"
+  },
+  "_class": "com.hw.aggregate.event.model.BizEvent"
+}]

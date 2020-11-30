@@ -1,2 +1,2 @@
 docker exec -it mongodb mongo --eval 'rs.initiate( { _id : "rs0", members: [ { _id : 0, host : "localhost:27017" } ] } )'
-#mongo --eval 'rs.initiate( { _id : "rs0", members: [ { _id : 0, host : "localhost:27017" } ] } )'
+docker exec -it mongodb mongoimport --db=objectDB --collection=bizEvent --file=/helloworld/bizEvent.json --jsonArray
