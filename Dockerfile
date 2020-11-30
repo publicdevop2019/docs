@@ -31,7 +31,6 @@ COPY --from=oauth2 ./AuthService.jar ./
 COPY --from=proxy ./EdgeProxyService.jar ./
 COPY --from=messenger ./Messenger.jar ./
 COPY --from=file-upload ./FileUpload.jar ./
-COPY --from=file-upload ./files ./files
 COPY --from=payment ./Payment.jar ./
 COPY --from=user-profile ./UserProfile.jar ./
 COPY --from=product ./Product.jar ./
