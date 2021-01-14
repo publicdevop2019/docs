@@ -17,7 +17,7 @@
 | service-name/object-collection/role-name/{object-id}  |DELETE| delete an object|[sample5](#sample5)|
 | service-name/object-collection/role-name/{object-id}  |PATCH| patch an object (rfc6902)|[sample6](#sample6)|
 | service-name/object-collection/role-name?query={condition-clause}  |GET| get object collection which match query condition with pagination|[sample7](#sample7)|
-| service-name/object-collection/role-name?query={condition-clause}  |DELETE| delete object collection which match query condition with pagination|[sample8](#sample8)|
+| service-name/object-collection/role-name?query={condition-clause}  |DELETE| delete object collection which match query condition, will read by query first then delete by id(s) |[sample8](#sample8)|
 | service-name/object-collection/role-name  |PATCH| modify object collection|[sample9](#sample9)|
 ###  sample1
 ```
