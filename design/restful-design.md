@@ -1,3 +1,7 @@
+# Dropping support for deleteByQuery
+- Delete by a query is time related, same query run at different time will return different results
+- it's hard to rollback
+- it can completely replace by ready by query then delete by id
 # Combine DDD with restful api design
 - In SQL world, root is accessed through SQL query
 - SELECT what can be read
