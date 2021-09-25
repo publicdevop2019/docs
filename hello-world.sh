@@ -26,7 +26,7 @@ docker run -td --rm -p 4200:80 --name object-market publicdevop2019/object-marke
 # start of micro-services #
 docker run -td --rm --name eureka --network="host" publicdevop2019/eureka:latest -jar Eureka.jar
 docker run -td --rm --name validator --network="host" publicdevop2019/validator:latest
-docker run -td --rm --name oauth2 --network="host" publicdevop2019/oauth2service:latest -jar AuthService.jar $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
+docker run -td --rm --name oauth2 --network="host" publicdevop2019/oauth2service:latest -jar Access.jar $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
 sleep 20
 docker run -td --rm --name proxy --network="host" publicdevop2019/edgeproxy:latest -jar EdgeProxyService.jar $OAUTH $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
 docker run -td --rm --name objectstore --network="host" publicdevop2019/object-store:latest -jar ObjectStore.jar $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL
@@ -34,7 +34,7 @@ docker run -td --rm --name objectstore --network="host" publicdevop2019/object-s
 docker run -td --rm --name messenger --network="host" publicdevop2019/messenger:latest -jar Messenger.jar $EMAIL_USERNAME $EMAIL_PWD $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
 docker run -td --rm --name file-upload --network="host" publicdevop2019/file-upload:latest -jar FileUpload.jar $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
 docker run -td --rm --name payment --network="host" publicdevop2019/payment:latest -jar Payment.jar $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
-docker run -td --rm --name saga-orchestrator --network="host" publicdevop2019/saga-orchestrator:latest -jar SagaOrchestrator.jar $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
+docker run -td --rm --name saga-orchestrator --network="host" publicdevop2019/saga-orchestrator:latest -jar Saga.jar $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
 
 docker run -td --rm --name profile --network="host" publicdevop2019/userprofile:latest -jar UserProfile.jar $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
 docker run -td --rm --name product --network="host" publicdevop2019/product:latest -jar Product.jar $REGISTRY $REGISTRY_IP $DATA_SOURCE_URL $DATA_SOURCE_DDL $DATA_SOURCE_USERNAME
